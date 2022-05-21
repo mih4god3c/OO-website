@@ -1,597 +1,505 @@
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <link rel="stylesheet" href="style.css">
-    <title>Poses in artworks</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-    <script src="swipe.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <link rel="stylesheet" href="style.css">
+  <title>Poses in artworks</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+  <script src="swipe.js"></script>
 </head>
 
 <header>
-    <div class="navbar">
-        <div class="dropdown">
-          <button class="dropbtn">Choose a period 
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="#prva">Early renaissance</a>
-            <a href="#druga">Northern renaissance</a>
-            <a href="#tretja">High renaissance</a>
-            <a href="#cetrta">Mannerism</a>
-            <a href="#peta">Baroque</a>
-            <a href="#sesta">Rococo</a>
-            <a href="#sedma">Romanticism</a>
-            <a href="#osma">Realism</a>
-            <a href="#deveta">Pointilism</a>
-            <a href="#deseta">Post impressionism</a>
-            <a href="#enajsta">Symbolism</a>
-            <a href="#dvanajsta">Art nouveau</a>
-            <a href="#trinajsta">Primitivism</a>
-            <a href="#stirinajsta">New realism</a>
-            <a href="#petnajsta">Contemporary realism</a>
-            <a href="#sestnajsta">Pop art</a>
-          </div>
-        </div>
+  <div class="navbar">
+    <div class="dropdown">
+      <button class="dropbtn">Choose a period
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#prva">Early renaissance</a>
+        <a href="#druga">Northern renaissance</a>
+        <a href="#tretja">High renaissance</a>
+        <a href="#cetrta">Mannerism</a>
+        <a href="#peta">Baroque</a>
+        <a href="#sesta">Rococo</a>
+        <a href="#sedma">Romanticism</a>
+        <a href="#osma">Realism</a>
+        <a href="#deveta">Pointilism</a>
+        <a href="#deseta">Post impressionism</a>
+        <a href="#enajsta">Symbolism</a>
+        <a href="#dvanajsta">Art nouveau</a>
+        <a href="#trinajsta">Primitivism</a>
+        <a href="#stirinajsta">New realism</a>
+        <a href="#petnajsta">Contemporary realism</a>
+        <a href="#sestnajsta">Pop art</a>
       </div>
+    </div>
+  </div>
 </header>
 
 <div class="ag-timeline-block">
-    <div class="ag-timeline_title-box">
-      <div class="ag-timeline_tagline">
-          <p>Poses of subjects</p>
-          <p>through different art periods</p>
-      </div>
-      
+  <div class="ag-timeline_title-box">
+    <div class="ag-timeline_tagline">
+      <p>Poses of subjects</p>
+      <p>through different art periods</p>
     </div>
-    <section class="ag-section">
-      <div class="ag-format-container">
-        <div class="js-timeline ag-timeline">
-          <div class="js-timeline_line ag-timeline_line">
-            <div class="js-timeline_line-progress ag-timeline_line-progress"></div>
+
+  </div>
+  <section class="ag-section">
+    <div class="ag-format-container">
+      <div class="js-timeline ag-timeline">
+        <div class="js-timeline_line ag-timeline_line">
+          <div class="js-timeline_line-progress ag-timeline_line-progress"></div>
+        </div>
+        <div class="ag-timeline_list">
+
+          <div class="js-timeline_item ag-timeline_item" id="prva">
+            <div class="ag-timeline-card_box">
+              <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                <div class="ag-timeline-card_point">1400</div>
+              </div>
+              <div class="ag-timeline-card_meta-box">
+                <div class="ag-timeline-card_meta">Early renaissance</div>
+              </div>
+            </div>
+            <div class="ag-timeline-card_item">
+              <div class="ag-timeline-card_inner">
+                <div class="ag-timeline-card_img-box">
+                  <img src="images/early_renaissance.png" class="ag-timeline-card_img" width="720" height="360" />
+                </div>
+                <div class="ag-timeline-card_info">
+                  <div class="ag-timeline-card_title">Early renaissance</div>
+                  <div class="ag-timeline-card_desc">
+                    <p>
+                      In Early Renaissance, our algorithm managed to cluster the artworks into three main clusters. One
+                      cluster is made out of painitngs of Madonna holding a child, second cluster is represented by
+                      portraits and the third cluster consits of painitngs of Crucification. Portraits are painted from
+                      the shoulders up, with subjects not facing straight to the observer. We can see that the subjects
+                      are depicted with more anatomical realism versus the earlier art. Most of the motives
+                      are connected to religion, which is also very standard for the period of Early renaissance.
+                    </p>
+                    <p>
+                      Some famous artists that were active in this period are: Masaccio, Donatello, Fra Angelico, Sandro
+                      Botticelli, Giovani Bellini.
+                    </p>
+                    <p>
+                      Some famous art works from this period are: Expulsion from the garden of Eden, The Holy Trinity,
+                      The Annuciation, Flagelation of Christ, Primavera.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_arrow"></div>
+            </div>
           </div>
-          <div class="ag-timeline_list">
 
-            <div class="js-timeline_item ag-timeline_item" id="prva">
-              <div class="ag-timeline-card_box">
-                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                  <div class="ag-timeline-card_point">1400</div>
-                </div>
-                <div class="ag-timeline-card_meta-box">
-                  <div class="ag-timeline-card_meta">Early renaissance</div>
-                </div>
+          <div class="js-timeline_item ag-timeline_item" id="druga">
+            <div class="ag-timeline-card_box">
+              <div class="ag-timeline-card_meta-box">
+                <div class="ag-timeline-card_meta">Northern renaissance</div>
               </div>
-              <div class="ag-timeline-card_item">
-                <div class="ag-timeline-card_inner">
-                  <div class="ag-timeline-card_img-box">
-                    <img src="images/early_renaissance.png" class="ag-timeline-card_img" width="720" height="360" />
-                  </div>
-                  <div class="ag-timeline-card_info">
-                    <div class="ag-timeline-card_title">Early renaissance</div>
-                    <div class="ag-timeline-card_desc">
-                      <p>
-                        In Early Renaissance, our algorithm managed to cluster the artworks into three main clusters. One cluster is made out of painitngs of Madonna holding a child, second cluster is represented by
-                        portraits and the third cluster consits of painitngs of Crucification. Portraits are painted from the shoulders up, with subjects not facing straight to the observer. We can see that the subjects are depicted with more anatomical realism versus the earlier art. Most of the motives
-                        are connected to religion, which is also very standard for the period of Early renaissance.
-                      </p>
-                      <p>
-                        Some famous artists that were active in this period are: Masaccio, Donatello, Fra Angelico, Sandro Botticelli, Giovani Bellini.
-                      </p>
-                      <p>
-                        Some famous art works from this period are: Expulsion from the garden of Eden, The Holy Trinity, The Annuciation, Flagelation of Christ, Primavera.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="ag-timeline-card_arrow"></div>
+              <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                <div class="ag-timeline-card_point">1430</div>
               </div>
             </div>
-  
-            <div class="js-timeline_item ag-timeline_item" id="druga">
-              <div class="ag-timeline-card_box">
-                <div class="ag-timeline-card_meta-box">
-                  <div class="ag-timeline-card_meta">Northern renaissance</div>
+            <div class="ag-timeline-card_item">
+              <div class="ag-timeline-card_inner">
+                <div class="ag-timeline-card_img-box">
+                  <img src="images/north_ren.png" class="ag-timeline-card_img" width="720" height="360" alt="" />
                 </div>
-                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                  <div class="ag-timeline-card_point">1430</div>
-                </div>
-              </div>
-              <div class="ag-timeline-card_item">
-                <div class="ag-timeline-card_inner">
-                  <div class="ag-timeline-card_img-box">
-                    <img src="images/test.jpg" class="ag-timeline-card_img" width="720" height="360" alt="" />
-                  </div>
-                  <div class="ag-timeline-card_info">
-                    <div class="ag-timeline-card_title">Northern renaissance</div>
-                    <div class="ag-timeline-card_desc">
-                      <p>
-                        As we can see, the most common pose in this period is
-                      </p>
-                      <p>
-                        Some famous artists that were active in this period are: Jan van Eyck, Hieronymus Bosch, Albrecht Durer, Matthias Grunewald, Lucas Cranach the Elder. 
-                      </p>
-                      <p>
-                        Some famous art works from this period are: Ghent Altarpiece, The Arnolfini Portrait, The Descent from the Cross, Self-Portrait, Adam and Eve.
-                      </p>
-                    </div>
+                <div class="ag-timeline-card_info">
+                  <div class="ag-timeline-card_title">Northern renaissance</div>
+                  <div class="ag-timeline-card_desc">
+                    <p>
+                      As we can see, the most common pose in this period is
+                    </p>
+                    <p>
+                      Some famous artists that were active in this period are: Jan van Eyck, Hieronymus Bosch, Albrecht
+                      Durer, Matthias Grunewald, Lucas Cranach the Elder.
+                    </p>
+                    <p>
+                      Some famous art works from this period are: Ghent Altarpiece, The Arnolfini Portrait, The Descent
+                      from the Cross, Self-Portrait, Adam and Eve.
+                    </p>
                   </div>
                 </div>
-                <div class="ag-timeline-card_arrow"></div>
               </div>
+              <div class="ag-timeline-card_arrow"></div>
             </div>
-  
-            <div class="js-timeline_item ag-timeline_item" id="tretja">
-              <div class="ag-timeline-card_box">
-                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                  <div class="ag-timeline-card_point">1490</div>
-                </div>
-                <div class="ag-timeline-card_meta-box">
-                  <div class="ag-timeline-card_meta">High renaissance</div>
-                </div>
-              </div>
-              <div class="ag-timeline-card_item">
-                <div class="ag-timeline-card_inner">
-                  <div class="ag-timeline-card_img-box">
-                    <img src="images/high_renaissance.png" class="ag-timeline-card_img" width="720" height="360" alt="" />
-                  </div>
-                  <div class="ag-timeline-card_info">
-                    <div class="ag-timeline-card_title">High renaissance</div>
-                    <div class="ag-timeline-card_desc">
-                      <p>
-                        Classification of High renaissance paintings, looks very similar to both other renaissance periods. We can see that there are again the same three clusters as before. There is a slight difference in portraits,
-                        where we noticed that more subjects are faicing straight to the observer. High renaissance is a period dominated with religious motives. There are still some differences between the High and the Early renaissance. Human figures
-                        are painted much more divine, and there is also more use of the linear perspective and shading.
-                      </p>
-                      <p>
-                        Some famous artists that were active in this period are: Leonardo da Vinci, Michelangelo, Raphael, Andrea del Sarto, Correggio. 
-                      </p>
-                      <p>
-                        Some famous art works from this period are: Virgin of the rocks, The Last Supper, Mona Lisa, The Alba Madonna, School of Athens, The creation of Adam, The Sistine Madonna.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="ag-timeline-card_arrow"></div>
-              </div>
-            </div>
-  
-            <div class="js-timeline_item ag-timeline_item" id="cetrta">
-              <div class="ag-timeline-card_box">
-                <div class="ag-timeline-card_meta-box">
-                  <div class="ag-timeline-card_meta">Mannerism</div>
-                </div>
-                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                  <div class="ag-timeline-card_point">1520</div>
-                </div>
-              </div>
-              <div class="ag-timeline-card_item">
-                <div class="ag-timeline-card_inner">
-                  <div class="ag-timeline-card_img-box">
-                    <img src="images/test.jpg" class="ag-timeline-card_img" width="720" height="360" alt="" />
-                  </div>
-                  <div class="ag-timeline-card_info">
-                    <div class="ag-timeline-card_title">Mannerism</div>
-                    <div class="ag-timeline-card_desc">
-                      <p>
-                        As we can see, the most common pose in this period is
-                      </p>
-                      <p>
-                        Some famous artists that were active in this period are: Parmigianino, El Greco, Giuseppe Arcimboldo, Titian, Bronzino, Caravagiio, Paolo Veronese.
-                      </p>
-                      <p>
-                        Some famous art works from this period are: Self-Portrait in a  Convex Mirror, Deposition from the cross, Madonna with the long neck, An allegory with Venus and Cupid.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="ag-timeline-card_arrow"></div>
-              </div>
-            </div>
-  
-            <div class="js-timeline_item ag-timeline_item" id="peta">
-              <div class="ag-timeline-card_box">
-                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                  <div class="ag-timeline-card_point">1600</div>
-                </div>
-                <div class="ag-timeline-card_meta-box">
-                  <div class="ag-timeline-card_meta">Baroque</div>
-                </div>
-              </div>
-              <div class="ag-timeline-card_item">
-                <div class="ag-timeline-card_inner">
-                  <div class="ag-timeline-card_img-box">
-                    <img src="images/baroque.png" class="ag-timeline-card_img" width="720" height="360" alt="" />
-                  </div>
-                  <div class="ag-timeline-card_info">
-                    <div class="ag-timeline-card_title">Baroque</div>
-                    <div class="ag-timeline-card_desc">
-                      <p>
-                        For the period of Baroque, our algorithm managed to cluster the painitngs into the next three clusters. Poses where the subject is in laying position, portraits and painitngs containing 
-                        standing subjects. We can see less religious motives and more emphasis on the human body. Paintings are also much more emphasizing beauty and majesty. In laying poses there are a lot of paintings
-                        representing a naked woman. We can also notice that portraits are drawn from further away. As for the standing poses, we can see that our algorithm still classified the painitng of Crusification
-                        as the best fit to the calculated median pose.
-                      </p>
-                      <p>
-                        Some famous artists that were active in this period are: Caravaggio, Peter Paul Rubens, Artemisia Gentileschi, Gian Lorenzo Bernini, Rembrandt van Rijn.
-                      </p>
-                      <p>
-                        Some famous art works from this period are: The calling of St Matthew, Judith and Holofernes, The night watch, Las Meninas.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="ag-timeline-card_arrow"></div>
-              </div>
-            </div>
-  
-            <div class="js-timeline_item ag-timeline_item" id="sesta">
-              <div class="ag-timeline-card_box">
-                <div class="ag-timeline-card_meta-box">
-                  <div class="ag-timeline-card_meta">Rococo</div>
-                </div>
-                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                  <div class="ag-timeline-card_point">1723</div>
-                </div>
-              </div>
-              <div class="ag-timeline-card_item">
-                <div class="ag-timeline-card_inner">
-                  <div class="ag-timeline-card_img-box">
-                    <img src="images/test.jpg" class="ag-timeline-card_img" width="720" height="360" alt="" />
-                  </div>
-                  <div class="ag-timeline-card_info">
-                    <div class="ag-timeline-card_title">Rococo</div>
-                    <div class="ag-timeline-card_desc">
-                      <p>
-                        As we can see, the most common pose in this period is
-                      </p>
-                      <p>
-                        Some famous artists that were active in this period are: Francois boucher, Jean-Antoine Watteau, Jean-Honore Fragonard, Tiepolo.
-                      </p>
-                      <p>
-                        Some famous art works from this period are: The embarkation for Cythera, Pierrot, Soap Bubbles, La Toilette de Venus, The swing.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="ag-timeline-card_arrow"></div>
-              </div>
-            </div>
-  
-            <div class="js-timeline_item ag-timeline_item" id="sedma">
-              <div class="ag-timeline-card_box">
-                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                  <div class="ag-timeline-card_point">1800</div>
-                </div>
-                <div class="ag-timeline-card_meta-box">
-                  <div class="ag-timeline-card_meta">Romanticism</div>
-                </div>
-              </div>
-              <div class="ag-timeline-card_item">
-                <div class="ag-timeline-card_inner">
-                  <div class="ag-timeline-card_img-box">
-                    <img src="images/test.jpg" class="ag-timeline-card_img" width="720" height="360" alt="" />
-                  </div>
-                  <div class="ag-timeline-card_info">
-                    <div class="ag-timeline-card_title">Romanticism</div>
-                    <div class="ag-timeline-card_desc">
-                      <p>
-                        As we can see, the most common pose in this period is
-                      </p>
-                      <p>
-                        Some famous artists that were active in this period are: Francisco Goya, Caspar David Friedrich, Theodore Gericault, J. M. W. Turner.
-                      </p>
-                      <p>
-                        Some famous art works from this period are: The nightmare, Bonaparte visits the plague stricken in Jaffa, La Grande odalisque, Wanderer above the sea of fog.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="ag-timeline-card_arrow"></div>
-              </div>
-            </div>
-  
-            <div class="js-timeline_item ag-timeline_item" id="osma">
-              <div class="ag-timeline-card_box">
-                <div class="ag-timeline-card_meta-box">
-                  <div class="ag-timeline-card_meta">Realism</div>
-                </div>
-                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                  <div class="ag-timeline-card_point">1850</div>
-                </div>
-              </div>
-              <div class="ag-timeline-card_item">
-                <div class="ag-timeline-card_inner">
-                  <div class="ag-timeline-card_img-box">
-                    <img src="images/test.jpg" class="ag-timeline-card_img" width="720" height="360" alt="" />
-                  </div>
-                  <div class="ag-timeline-card_info">
-                    <div class="ag-timeline-card_title">Realism</div>
-                    <div class="ag-timeline-card_desc">
-                      <p>
-                        As we can see, the most common pose in this period is
-                      </p>
-                      <p>
-                        Some famous artists that were active in this period are: Gustave Courbet, Jean-Francois Millet, Edouard Manet, James Whistler, John Singer Sargent.
-                      </p>
-                      <p>
-                        Some famous art works from this period are: Rue Transnonian, A burial at Ornans, The stone breakers, Symphony in white no.1, Olympia.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="ag-timeline-card_arrow"></div>
-              </div>
-            </div>
-  
-            <div class="js-timeline_item ag-timeline_item" id="deveta">
-              <div class="ag-timeline-card_box">
-                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                  <div class="ag-timeline-card_point">1885</div>
-                </div>
-                <div class="ag-timeline-card_meta-box">
-                  <div class="ag-timeline-card_meta">Pointilism</div>
-                </div>
-              </div>
-              <div class="ag-timeline-card_item">
-                <div class="ag-timeline-card_inner">
-                  <div class="ag-timeline-card_img-box">
-                    <img src="images/test.jpg" class="ag-timeline-card_img" width="720" height="360" alt="" />
-                  </div>
-                  <div class="ag-timeline-card_info">
-                    <div class="ag-timeline-card_title">Pointilism</div>
-                    <div class="ag-timeline-card_desc">
-                      <p>
-                        As we can see, the most common pose in this period is
-                      </p>
-                      <p>
-                        Some famous artists that were active in this period are: Georges Seurat, Vincent van Gogh, Paul Signac, Anna Boch, Charles Angrand.
-                      </p>
-                      <p>
-                        Some famous art works from this period are: The Eiffel tower, Beach at Heist, The circus, The models, The regata, Young woman powdering herself.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="ag-timeline-card_arrow"></div>
-              </div>
-            </div>
-  
-            <div class="js-timeline_item ag-timeline_item" id="deseta">
-              <div class="ag-timeline-card_box">
-                <div class="ag-timeline-card_meta-box">
-                  <div class="ag-timeline-card_meta">Post impressionism</div>
-                </div>
-                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                  <div class="ag-timeline-card_point">1886</div>
-                </div>
-              </div>
-              <div class="ag-timeline-card_item">
-                <div class="ag-timeline-card_inner">
-                  <div class="ag-timeline-card_img-box">
-                    <img src="images/test.jpg" class="ag-timeline-card_img" width="720" height="360" alt="" />
-                  </div>
-                  <div class="ag-timeline-card_info">
-                    <div class="ag-timeline-card_title">Post impressionism</div>
-                    <div class="ag-timeline-card_desc">
-                      <p>
-                        As we can see, the most common pose in this period is
-                      </p>
-                      <p>
-                        Some famous artists that were active in this period are: Paul cezanne, Vincent van Gogh, Paul Gauguin, Georges Seurat.
-                      </p>
-                      <p>
-                        Some famous art works from this period are: Sunday afternoon on the island of La Grande Jatte, Vision after the Sermon, Portrait of Doctor Gachet, The scream, The dream.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="ag-timeline-card_arrow"></div>
-              </div>
-            </div>
-  
-            <div class="js-timeline_item ag-timeline_item" id="enajsta">
-              <div class="ag-timeline-card_box">
-                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                  <div class="ag-timeline-card_point">1886</div>
-                </div>
-                <div class="ag-timeline-card_meta-box">
-                  <div class="ag-timeline-card_meta">Symbolism</div>
-                </div>
-              </div>
-              <div class="ag-timeline-card_item">
-                <div class="ag-timeline-card_inner">
-                  <div class="ag-timeline-card_img-box">
-                    <img src="images/test.jpg" class="ag-timeline-card_img" width="720" height="360" alt="" />
-                  </div>
-                  <div class="ag-timeline-card_info">
-                    <div class="ag-timeline-card_title">Symbolism</div>
-                    <div class="ag-timeline-card_desc">
-                      <p>
-                        As we can see, the most common pose in this period is
-                      </p>
-                      <p>
-                        Some famous artists that were active in this period are: Paul Gauguin, James Whistler, Gustave Moreau, Odlion Redon, Aubrey Beardsley.
-                      </p>
-                      <p>
-                        Some famous art works from this period are: Jupiter and Semele, Death and the masks, The three birdes, The dance of life, Death and life.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="ag-timeline-card_arrow"></div>
-              </div>
-            </div>
-  
-            <div class="js-timeline_item ag-timeline_item" id="dvanajsta">
-              <div class="ag-timeline-card_box">
-                <div class="ag-timeline-card_meta-box">
-                  <div class="ag-timeline-card_meta">Art nouveau</div>
-                </div>
-                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                  <div class="ag-timeline-card_point">1890</div>
-                </div>
-              </div>
-              <div class="ag-timeline-card_item">
-                <div class="ag-timeline-card_inner">
-                  <div class="ag-timeline-card_img-box">
-                    <img src="images/artnoveau.png " class="ag-timeline-card_img" width="1000" height="360" />
-                  </div>
-                  <div class="ag-timeline-card_info">
-                    <div class="ag-timeline-card_title">Art nouveau</div>
-                    <div class="ag-timeline-card_desc">
-                      <p>
-                        We can see the three main clusters that were found for the Art nouveau period. There was a significant lack of images with laying poses, but the algorithm still managed to find a few.
-                        Most portraits have the subject facing straight to the observer. As for the standing poses goes, the skeletons are much less proportional than for example in some other periods. 
-                      </p>
-                      <p>
-                        Some famous artists that were active in this period are: Gustav Klimt, Hector Guimard, Victor Horta, Aubrey Beardsley. 
-                      </p>
-                      <p>
-                        Some famous art works from this period are: The Peacock skirt, The climax, The black cape, The woman in the moon.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="ag-timeline-card_arrow"></div>
-              </div>
-            </div>
-  
-            <div class="js-timeline_item ag-timeline_item" id="trinajsta">
-              <div class="ag-timeline-card_box">
-                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                  <div class="ag-timeline-card_point">1900</div>
-                </div>
-                <div class="ag-timeline-card_meta-box">
-                  <div class="ag-timeline-card_meta">Primitivism</div>
-                </div>
-              </div>
-              <div class="ag-timeline-card_item">
-                <div class="ag-timeline-card_inner">
-                  <div class="ag-timeline-card_img-box">
-                    <img src="images/test.jpg" class="ag-timeline-card_img" width="720" height="360" />
-                  </div>
-                  <div class="ag-timeline-card_info">
-                    <div class="ag-timeline-card_title">Primitivism</div>
-                    <div class="ag-timeline-card_desc">
-                      <p>
-                        As we can see, the most common pose in this period is
-                      </p>
-                      <p>
-                        Some famous artists that were active in this period are: Pauk gauguin, Pablo Picasso, Henri Matisse, Ernst Ludwig Kirchner.
-                      </p>
-                      <p>
-                        Some famous art works from this period are: Vision after the Sermon, Les demouselles dAvignon, Bathers in a room.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="ag-timeline-card_arrow"></div>
-              </div>
-            </div>
+          </div>
 
-            <div class="js-timeline_item ag-timeline_item" id="stirinajsta">
-              <div class="ag-timeline-card_box">
-                <div class="ag-timeline-card_meta-box">
-                  <div class="ag-timeline-card_meta">New realism</div>
-                </div>
-                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                  <div class="ag-timeline-card_point">1960</div>
-                </div>
+          <div class="js-timeline_item ag-timeline_item" id="tretja">
+            <div class="ag-timeline-card_box">
+              <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                <div class="ag-timeline-card_point">1490</div>
               </div>
-              <div class="ag-timeline-card_item">
-                <div class="ag-timeline-card_inner">
-                  <div class="ag-timeline-card_img-box">
-                    <img src="images/test.jpg" class="ag-timeline-card_img" width="720" height="360" />
-                  </div>
-                  <div class="ag-timeline-card_info">
-                    <div class="ag-timeline-card_title">New realism</div>
-                    <div class="ag-timeline-card_desc">
-                      <p>
-                        As we can see, the most common pose in this period is
-                      </p>
-                      <p>
-                        Some famous artists that were active in this period are: Arman, Pierre Restany, Raymonmd Hains, Yves Klein, Mimmo Rotella.
-                      </p>
-                      <p>
-                        Some famous art works from this period are: Leap in the void, Long-term parking, Hope for peace, Fire Painting.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="ag-timeline-card_arrow"></div>
+              <div class="ag-timeline-card_meta-box">
+                <div class="ag-timeline-card_meta">High renaissance</div>
               </div>
             </div>
-
-              <div class="js-timeline_item ag-timeline_item" id="petnajsta">
-                <div class="ag-timeline-card_box">
-                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                    <div class="ag-timeline-card_point">1960</div>
-                  </div>
-                  <div class="ag-timeline-card_meta-box">
-                    <div class="ag-timeline-card_meta">Contemporary realism</div>
-                  </div>
+            <div class="ag-timeline-card_item">
+              <div class="ag-timeline-card_inner">
+                <div class="ag-timeline-card_img-box">
+                  <img src="images/high_renaissance.png" class="ag-timeline-card_img" width="720" height="360" alt="" />
                 </div>
-                <div class="ag-timeline-card_item">
-                  <div class="ag-timeline-card_inner">
-                    <div class="ag-timeline-card_img-box">
-                      <img src="images/contemporary_realism.png" class="ag-timeline-card_img" width="720" height="360" />
-                    </div>
-                    <div class="ag-timeline-card_info">
-                      <div class="ag-timeline-card_title">Contemporary realism</div>
-                      <div class="ag-timeline-card_desc">
-                        <p>
-                          For the period of Contemporary realism we noticed a specific in standing poses. There are many painitngs with subjects standing close to eachother, which
-                          made it hard for our algorithm to define poses because the skeletons were overleaping. Portraits on the other hand look pretty standard. There was a lot of motives
-                          of a laying woman which our algorithm defined as a cluster itself. These paintings were specific for an American painter Eric Fischl.
-                        </p>
-                        <p>
-                          Some famous artists that were active in this period are: Jane Freilicher, Alex Katz, Leland Bell, Fairfield Porter.
-                        </p>
-                        <p>
-                          Some famous art works from this period are: Early New York evening, The black dress, Croquet Party.
-                        </p>
-                      </div>
-                    </div>
+                <div class="ag-timeline-card_info">
+                  <div class="ag-timeline-card_title">High renaissance</div>
+                  <div class="ag-timeline-card_desc">
+                    <p>
+                      Classification of High renaissance paintings, looks very similar to both other renaissance
+                      periods. We can see that there are again the same three clusters as before. There is a slight
+                      difference in portraits,
+                      where we noticed that more subjects are faicing straight to the observer. High renaissance is a
+                      period dominated with religious motives. There are still some differences between the High and the
+                      Early renaissance. Human figures
+                      are painted much more divine, and there is also more use of the linear perspective and shading.
+                    </p>
+                    <p>
+                      Some famous artists that were active in this period are: Leonardo da Vinci, Michelangelo, Raphael,
+                      Andrea del Sarto, Correggio.
+                    </p>
+                    <p>
+                      Some famous art works from this period are: Virgin of the rocks, The Last Supper, Mona Lisa, The
+                      Alba Madonna, School of Athens, The creation of Adam, The Sistine Madonna.
+                    </p>
                   </div>
-                  <div class="ag-timeline-card_arrow"></div>
                 </div>
               </div>
+              <div class="ag-timeline-card_arrow"></div>
+            </div>
+          </div>
 
-              <div class="js-timeline_item ag-timeline_item" id="sestnajsta"> 
-                <div class="ag-timeline-card_box">
-                  <div class="ag-timeline-card_meta-box">
-                    <div class="ag-timeline-card_meta">Pop art</div>
-                  </div>
-                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                    <div class="ag-timeline-card_point">1960</div>
-                  </div>
+          <div class="js-timeline_item ag-timeline_item" id="cetrta">
+            <div class="ag-timeline-card_box">
+              <div class="ag-timeline-card_meta-box">
+                <div class="ag-timeline-card_meta">Mannerism</div>
+              </div>
+              <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                <div class="ag-timeline-card_point">1520</div>
+              </div>
+            </div>
+            <div class="ag-timeline-card_item">
+              <div class="ag-timeline-card_inner">
+                <div class="ag-timeline-card_img-box">
+                  <img src="images/mannerism.png" class="ag-timeline-card_img" width="720" height="360" alt="" />
                 </div>
-                <div class="ag-timeline-card_item">
-                  <div class="ag-timeline-card_inner">
-                    <div class="ag-timeline-card_img-box">
-                      <img src="images/test.jpg" class="ag-timeline-card_img" width="720" height="360" />
-                    </div>
-                    <div class="ag-timeline-card_info">
-                      <div class="ag-timeline-card_title">Pop art</div>
-                      <div class="ag-timeline-card_desc">
-                        <p>
-                          As we can see, the most common pose in this period is
-                        </p>
-                        <p>
-                          Some famous artists that were active in this period are: Andy Warhol, Roy Lichtenstein, James Rosenquist, Claes Oldenburh, Eduardo Paolozzi. 
-                        </p>
-                        <p>
-                          Some famous art works from this period are: President elect, Drowning girl, Campbell's soup, A bigger splash.
-                        </p>
-                      </div>
-                    </div>
+                <div class="ag-timeline-card_info">
+                  <div class="ag-timeline-card_title">Mannerism</div>
+                  <div class="ag-timeline-card_desc">
+                    <p>
+                      As we can see, the most common pose in this period is
+                    </p>
+                    <p>
+                      Some famous artists that were active in this period are: Parmigianino, El Greco, Giuseppe
+                      Arcimboldo, Titian, Bronzino, Caravagiio, Paolo Veronese.
+                    </p>
+                    <p>
+                      Some famous art works from this period are: Self-Portrait in a Convex Mirror, Deposition from the
+                      cross, Madonna with the long neck, An allegory with Venus and Cupid.
+                    </p>
                   </div>
-                  <div class="ag-timeline-card_arrow"></div>
                 </div>
               </div>
+              <div class="ag-timeline-card_arrow"></div>
+            </div>
+          </div>
+
+          <div class="js-timeline_item ag-timeline_item" id="peta">
+            <div class="ag-timeline-card_box">
+              <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                <div class="ag-timeline-card_point">1600</div>
+              </div>
+              <div class="ag-timeline-card_meta-box">
+                <div class="ag-timeline-card_meta">Baroque</div>
+              </div>
+            </div>
+            <div class="ag-timeline-card_item">
+              <div class="ag-timeline-card_inner">
+                <div class="ag-timeline-card_img-box">
+                  <img src="images/baroque.png" class="ag-timeline-card_img" width="720" height="360" alt="" />
+                </div>
+                <div class="ag-timeline-card_info">
+                  <div class="ag-timeline-card_title">Baroque</div>
+                  <div class="ag-timeline-card_desc">
+                    <p>
+                      For the period of Baroque, our algorithm managed to cluster the painitngs into the next three
+                      clusters. Poses where the subject is in laying position, portraits and painitngs containing
+                      standing subjects. We can see less religious motives and more emphasis on the human body.
+                      Paintings are also much more emphasizing beauty and majesty. In laying poses there are a lot of
+                      paintings
+                      representing a naked woman. We can also notice that portraits are drawn from further away. As for
+                      the standing poses, we can see that our algorithm still classified the painitng of Crusification
+                      as the best fit to the calculated median pose.
+                    </p>
+                    <p>
+                      Some famous artists that were active in this period are: Caravaggio, Peter Paul Rubens, Artemisia
+                      Gentileschi, Gian Lorenzo Bernini, Rembrandt van Rijn.
+                    </p>
+                    <p>
+                      Some famous art works from this period are: The calling of St Matthew, Judith and Holofernes, The
+                      night watch, Las Meninas.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_arrow"></div>
+            </div>
+          </div>
+
+          <div class="js-timeline_item ag-timeline_item" id="sesta">
+            <div class="ag-timeline-card_box">
+              <div class="ag-timeline-card_meta-box">
+                <div class="ag-timeline-card_meta">Rococo</div>
+              </div>
+              <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                <div class="ag-timeline-card_point">1723</div>
+              </div>
+            </div>
+            <div class="ag-timeline-card_item">
+              <div class="ag-timeline-card_inner">
+                <div class="ag-timeline-card_img-box">
+                  <img src="images/rococo.png" class="ag-timeline-card_img" width="720" height="360" alt="" />
+                </div>
+                <div class="ag-timeline-card_info">
+                  <div class="ag-timeline-card_title">Rococo</div>
+                  <div class="ag-timeline-card_desc">
+                    <p>
+                      As we can see, the most common pose in this period is
+                    </p>
+                    <p>
+                      Some famous artists that were active in this period are: Francois boucher, Jean-Antoine Watteau,
+                      Jean-Honore Fragonard, Tiepolo.
+                    </p>
+                    <p>
+                      Some famous art works from this period are: The embarkation for Cythera, Pierrot, Soap Bubbles, La
+                      Toilette de Venus, The swing.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_arrow"></div>
+            </div>
+          </div>
+
+          <div class="js-timeline_item ag-timeline_item" id="sedma">
+            <div class="ag-timeline-card_box">
+              <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                <div class="ag-timeline-card_point">1800</div>
+              </div>
+              <div class="ag-timeline-card_meta-box">
+                <div class="ag-timeline-card_meta">Romanticism</div>
+              </div>
+            </div>
+            <div class="ag-timeline-card_item">
+              <div class="ag-timeline-card_inner">
+                <div class="ag-timeline-card_img-box">
+                  <img src="images/romanticism.png" class="ag-timeline-card_img" width="720" height="360" alt="" />
+                </div>
+                <div class="ag-timeline-card_info">
+                  <div class="ag-timeline-card_title">Romanticism</div>
+                  <div class="ag-timeline-card_desc">
+                    <p>
+                      As we can see, the most common pose in this period is
+                    </p>
+                    <p>
+                      Some famous artists that were active in this period are: Francisco Goya, Caspar David Friedrich,
+                      Theodore Gericault, J. M. W. Turner.
+                    </p>
+                    <p>
+                      Some famous art works from this period are: The nightmare, Bonaparte visits the plague stricken in
+                      Jaffa, La Grande odalisque, Wanderer above the sea of fog.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_arrow"></div>
+            </div>
+          </div>
+
+          <div class="js-timeline_item ag-timeline_item" id="osma">
+            <div class="ag-timeline-card_box">
+              <div class="ag-timeline-card_meta-box">
+                <div class="ag-timeline-card_meta">Realism</div>
+              </div>
+              <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                <div class="ag-timeline-card_point">1850</div>
+              </div>
+            </div>
+            <div class="ag-timeline-card_item">
+              <div class="ag-timeline-card_inner">
+                <div class="ag-timeline-card_img-box">
+                  <img src="images/realism.png" class="ag-timeline-card_img" width="720" height="360" alt="" />
+                </div>
+                <div class="ag-timeline-card_info">
+                  <div class="ag-timeline-card_title">Realism</div>
+                  <div class="ag-timeline-card_desc">
+                    <p>
+                      As we can see, the most common pose in this period is
+                    </p>
+                    <p>
+                      Some famous artists that were active in this period are: Gustave Courbet, Jean-Francois Millet,
+                      Edouard Manet, James Whistler, John Singer Sargent.
+                    </p>
+                    <p>
+                      Some famous art works from this period are: Rue Transnonian, A burial at Ornans, The stone
+                      breakers, Symphony in white no.1, Olympia.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_arrow"></div>
+            </div>
+          </div>
+
+          <div class="js-timeline_item ag-timeline_item" id="deveta">
+            <div class="ag-timeline-card_box">
+              <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                <div class="ag-timeline-card_point">1886</div>
+              </div>
+              <div class="ag-timeline-card_meta-box">
+                <div class="ag-timeline-card_meta">Post impressionism</div>
+              </div>
+            </div>
+            <div class="ag-timeline-card_item">
+              <div class="ag-timeline-card_inner">
+                <div class="ag-timeline-card_img-box">
+                  <img src="images/post_impr.png" class="ag-timeline-card_img" width="720" height="360" alt="" />
+                </div>
+                <div class="ag-timeline-card_info">
+                  <div class="ag-timeline-card_title">Post impressionism</div>
+                  <div class="ag-timeline-card_desc">
+                    <p>
+                      As we can see, the most common pose in this period is
+                    </p>
+                    <p>
+                      Some famous artists that were active in this period are: Paul cezanne, Vincent van Gogh, Paul
+                      Gauguin, Georges Seurat.
+                    </p>
+                    <p>
+                      Some famous art works from this period are: Sunday afternoon on the island of La Grande Jatte,
+                      Vision after the Sermon, Portrait of Doctor Gachet, The scream, The dream.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_arrow"></div>
+            </div>
+          </div>
+
+
+          <div class="js-timeline_item ag-timeline_item" id="dvanajsta">
+            <div class="ag-timeline-card_box">
+              <div class="ag-timeline-card_meta-box">
+                <div class="ag-timeline-card_meta">Art nouveau</div>
+              </div>
+              <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                <div class="ag-timeline-card_point">1890</div>
+              </div>
+            </div>
+            <div class="ag-timeline-card_item">
+              <div class="ag-timeline-card_inner">
+                <div class="ag-timeline-card_img-box">
+                  <img src="images/artnoveau.png " class="ag-timeline-card_img" width="1000" height="360" />
+                </div>
+                <div class="ag-timeline-card_info">
+                  <div class="ag-timeline-card_title">Art nouveau</div>
+                  <div class="ag-timeline-card_desc">
+                    <p>
+                      We can see the three main clusters that were found for the Art nouveau period. There was a
+                      significant lack of images with laying poses, but the algorithm still managed to find a few.
+                      Most portraits have the subject facing straight to the observer. As for the standing poses goes,
+                      the skeletons are much less proportional than for example in some other periods.
+                    </p>
+                    <p>
+                      Some famous artists that were active in this period are: Gustav Klimt, Hector Guimard, Victor
+                      Horta, Aubrey Beardsley.
+                    </p>
+                    <p>
+                      Some famous art works from this period are: The Peacock skirt, The climax, The black cape, The
+                      woman in the moon.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_arrow"></div>
+            </div>
+          </div>
+
+          <div class="js-timeline_item ag-timeline_item" id="petnajsta">
+            <div class="ag-timeline-card_box">
+              <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                <div class="ag-timeline-card_point">1960</div>
+              </div>
+              <div class="ag-timeline-card_meta-box">
+                <div class="ag-timeline-card_meta">Contemporary realism</div>
+              </div>
+            </div>
+            <div class="ag-timeline-card_item">
+              <div class="ag-timeline-card_inner">
+                <div class="ag-timeline-card_img-box">
+                  <img src="images/contemporary_realism.png" class="ag-timeline-card_img" width="720" height="360" />
+                </div>
+                <div class="ag-timeline-card_info">
+                  <div class="ag-timeline-card_title">Contemporary realism</div>
+                  <div class="ag-timeline-card_desc">
+                    <p>
+                      For the period of Contemporary realism we noticed a specific in standing poses. There are many
+                      painitngs with subjects standing close to eachother, which
+                      made it hard for our algorithm to define poses because the skeletons were overleaping. Portraits
+                      on the other hand look pretty standard. There was a lot of motives
+                      of a laying woman which our algorithm defined as a cluster itself. These paintings were specific
+                      for an American painter Eric Fischl.
+                    </p>
+                    <p>
+                      Some famous artists that were active in this period are: Jane Freilicher, Alex Katz, Leland Bell,
+                      Fairfield Porter.
+                    </p>
+                    <p>
+                      Some famous art works from this period are: Early New York evening, The black dress, Croquet
+                      Party.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_arrow"></div>
+            </div>
+          </div>
+
+          <div class="js-timeline_item ag-timeline_item" id="sestnajsta">
+            <div class="ag-timeline-card_box">
+              <div class="ag-timeline-card_meta-box">
+                <div class="ag-timeline-card_meta">Pop art</div>
+              </div>
+              <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                <div class="ag-timeline-card_point">1960</div>
+              </div>
+            </div>
+            <div class="ag-timeline-card_item">
+              <div class="ag-timeline-card_inner">
+                <div class="ag-timeline-card_img-box">
+                  <img src="images/popart.png" class="ag-timeline-card_img" width="720" height="360" />
+                </div>
+                <div class="ag-timeline-card_info">
+                  <div class="ag-timeline-card_title">Pop art</div>
+                  <div class="ag-timeline-card_desc">
+                    <p>
+                      As we can see, the most common pose in this period is
+                    </p>
+                    <p>
+                      Some famous artists that were active in this period are: Andy Warhol, Roy Lichtenstein, James
+                      Rosenquist, Claes Oldenburh, Eduardo Paolozzi.
+                    </p>
+                    <p>
+                      Some famous art works from this period are: President elect, Drowning girl, Campbell's soup, A
+                      bigger splash.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_arrow"></div>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
+</div>
